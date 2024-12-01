@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_bai1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bài 1: Create Notification" />
+
+
+    <Button
+        android:id="@+id/btn_bai2_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Bài 2: Start Foreground Service" />
+    <Button
+        android:id="@+id/btn_bai2_stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Bài 2: Stop Foreground Service" />
+
+
+    <Button
+        android:id="@+id/btn_bai3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Bài 3: Start Background Service" />
+
+    <Button
+        android:id="@+id/btn_bai4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Bài 4: Trigger WorkManager" />
+
+</LinearLayout>
